@@ -1,4 +1,4 @@
-# Python Code Samples
+# Python Code Samples:
 This repository contains a collection of Python code snippets showcasing various concepts and functionalities. Below are brief descriptions of each code block:
 
 # 1: Basic Arithmetic Operations using pandas
