@@ -47,12 +47,27 @@ print("Hello user welcome to the python world")
   
  # Make your own virtual environment 
  * Go to anaconda prompt and run these codes.The command is used to create a new virtual environment in Conda, a popular package and environment management system for Python.
+
+* We can create env without python packages.
 ``````
-conda create -n
+conda create -n <envname> 
 ``````
+* Or
 ```
-conda create -n python12 python==3.12 -y
+conda create -n envname
+
+conda create --name envname
 ```
+* We can create env with any python packages.
+```
+conda create -ny python12 python==3.12
+
+```
+* We can create env in local repo.
+```
+conda create -p ./envname
+```
+
 * Go to Vs code and make requirements.txt file and activate your environment.
 ```
 conda activate python12
@@ -71,13 +86,7 @@ pip install -r requirements.txt
   ```
   conda activate envname
   ```
-* We can create env without python packages. And check virtual enviroment packages and libraries  by runnig this code.
-
-```
-conda create -n envname
-
-conda create --name envname
-```
+* Check current  virtual enviroment packages and libraries  by runnig this code.
 ```
 conda list
 ```
@@ -108,10 +117,6 @@ conda install python=version
 ```
 conda info
 ```
-* We can create env in local repo.
-```
-conda create -p ./envname
-```
 * We can activate the local repo env.
 ```
 activate Pathenv
@@ -127,6 +132,7 @@ conda env remove -p "envpath"
 ```
 conda remove python
 ```
+# Basic Commands for window cmd.
 * Change directory to get into the parent folder we run.
 ```
 cd..
@@ -144,7 +150,7 @@ cd path_of_folder
 ```
 dir/a
 ```
-* To open vs code directly from the prompt.
+* To open vs code in current directory from the prompt.
   ```
   code .
   ```
