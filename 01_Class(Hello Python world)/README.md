@@ -135,9 +135,10 @@ cd..
 ```
 dir
 ```
-* We can ge into the folder by this code and press tab to get foldername.
+* We can ge into the folder by running this code and press tab to get foldername or paste the path of the folder.
 ```
 cd foldername
+cd path_of_folder
 ```
 * To get info of the folder we run.
 ```
