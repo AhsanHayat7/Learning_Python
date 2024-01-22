@@ -1,6 +1,8 @@
 #  Installation
 *  Anaconda
 *  vs code
+
+# Reasons why we use conda commands
 *  Conda commands help manage the complexity of dependencies and ensure a smooth and isolated development and deployment environment for your Python projects.
 *  They provide a convenient way to create, manage, and share reproducible computing environments.
 
