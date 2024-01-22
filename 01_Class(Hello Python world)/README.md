@@ -44,7 +44,7 @@ conda create -n envname
 conda create --name envname
 ```
 ```
-coda list
+conda list
 ```
 * We can activate and deactivate base env by ruuning this code.
 ```
