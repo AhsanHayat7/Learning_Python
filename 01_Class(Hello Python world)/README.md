@@ -48,29 +48,24 @@ print("Hello user welcome to the python world")
  # Make your own virtual environment 
  * Go to anaconda prompt and run these codes.The command is used to create a new virtual environment in Conda, a popular package and environment management system for Python.
 
-* We can create env without python packages.
-``````
-conda create -n <envname> 
-``````
+* We can create env without any packages.
+```
+conda create -n <envname>
 * Or
+conda create --name <envname>
 ```
-conda create -n envname
-
-conda create --name envname
+* We can create env with any packages.
 ```
-* We can create env with any python packages.
-```
-conda create -ny python12 python==3.12
-
+conda create -ny <envname> <packages==version>
 ```
 * We can create env in local repo.
 ```
-conda create -p ./envname
+conda create -p "./<envname>"
 ```
 
 * Go to Vs code and make requirements.txt file and activate your environment.
 ```
-conda activate python12
+conda activate <envname>
 ```
 ```
 pip install -r requirements.txt
