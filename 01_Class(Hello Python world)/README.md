@@ -51,7 +51,7 @@ print("Hello user welcome to the python world")
 * We can create env without any packages.
 ```
 conda create -n <envname>
-* Or
+ Or
 conda create --name <envname>
 ```
 * We can create env with any packages.
