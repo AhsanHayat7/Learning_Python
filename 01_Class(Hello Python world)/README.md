@@ -1,6 +1,8 @@
 #  Installation
 *  Anaconda
 *  vs code
+*  Conda commands help manage the complexity of dependencies and ensure a smooth and isolated development and deployment environment for your Python projects.
+*  They provide a convenient way to create, manage, and share reproducible computing environments.
 
 # Hello world
 * windows -->Anaconda prompt -->python
@@ -11,14 +13,14 @@ print("Hello user welcome to the python world")
    * click on run button
   
  # Make your own virtual environment 
- * Go to anaconda prompt and run these codes.
+ * Go to anaconda prompt and run these codes.The command is used to create a new virtual environment in Conda, a popular package and environment management system for Python.
 ``````
 conda create -n
 ``````
 ```
 conda create -n python12 python==3.12 -y
 ```
-* Go to Vs code and make requirements.txt file and write your packages.
+* Go to Vs code and make requirements.txt file and activate your environment.
 ```
 conda activate python12
 ```
@@ -32,11 +34,11 @@ pip install -r requirements.txt
  ```
   conda env list
 ```
-* How we can change into another enviroment by running this code.
+* How we can change env into another enviroment by running this code.
   ```
   conda activate envname
   ```
-* We can save and check enviroment without packages in the env by runnig this code.
+* We can create env without python packages. And check virtual enviroment packages and libraries  by runnig this code.
 
 ```
 conda create -n envname
@@ -57,7 +59,7 @@ conda activate
 deactivate
 ```
 
-* When we want to activate any env by running this code.
+* When we want to activate one env leaving the other by running this code.
 ```
   conda activate envname
 ```
@@ -73,7 +75,7 @@ conda install python=version
 ```
 conda info
 ```
-* We can env in local repo.
+* We can create env in local repo.
 ```
 conda create -p ./envname
 ```
@@ -88,7 +90,7 @@ conda deactivate
 ```
 conda env remove -p "envpath"
 ```
-* We can also remove python version in environment by.
+* We can also remove python packages version and libraries in environment by.
 ```
 conda remove python
 ```
@@ -108,4 +110,8 @@ cd foldername
 ```
 dir/a
 ```
+* To open vs code directly from the prompt.
+  ```
+  code .
+  ```
 
