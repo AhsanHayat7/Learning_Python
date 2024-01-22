@@ -26,3 +26,8 @@ conda activate python12
 pip install -r requirements.txt
 ```
 * Now your own virtual environment is formed you can use it by selecting the python12 in the Vs code .
+
+* We can check how many virtaul environemt are created by runnig this code.
+  ```
+  conda env list
+```
