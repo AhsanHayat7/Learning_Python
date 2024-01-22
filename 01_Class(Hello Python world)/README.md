@@ -32,3 +32,41 @@ pip install -r requirements.txt
  ```
   conda env list
 ```
+* How we can change into another enviroment by running this code.
+  ```
+  conda activate envname
+  ```
+* We can save and check enviroment without packages in the env by runnig this code.
+
+```
+conda create -n envname
+
+conda create --name envname
+```
+```
+coda list
+```
+* We can activate and deactivate base env by ruuning this code.
+```
+activate
+```
+```
+conda activate
+```
+```
+deactivate
+```
+
+* When we want to activate any env by running this code.
+```
+  conda activate envname
+```
+* We can updated the conda version by running this code.
+```
+conda update conda
+```
+* We can install python in the env by runnig this code.
+```
+conda install python=version
+```
+  
