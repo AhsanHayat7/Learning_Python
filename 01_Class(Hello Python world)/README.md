@@ -69,4 +69,43 @@ conda update conda
 ```
 conda install python=version
 ```
-  
+* To get  the information of the env.
+```
+conda info
+```
+* We can env in local repo.
+```
+conda create -p ./envname
+```
+* We can activate the local repo env.
+```
+activate Pathenv
+```
+* We can remove env from the local repo.
+```
+conda deactivate
+```
+```
+conda env remove -p "envpath"
+```
+* We can also remove python version in environment by.
+```
+conda remove python
+```
+* Change directory to get into the parent folder we run.
+```
+cd..
+```
+* Info of folders.
+```
+dir
+```
+* We can ge into the folder by this code and press tab to get foldername.
+```
+cd foldername
+```
+* To get info of the folder we run.
+```
+dir/a
+```
+
